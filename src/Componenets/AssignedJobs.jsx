@@ -41,6 +41,15 @@ const AssignedJobs = () => {
         <button className="tab">Related Deals</button>
         <button className="tab">Contact(s) Pitched</button>
       </div>
+      <select className="tabs-dropdown">
+        <option>All Details</option>
+        <option>Assigned Jobs</option>
+        <option>Related Emails</option>
+        <option>Candidate Questions</option>
+        <option>Hotlists</option>
+        <option>Related Deals</option>
+        <option>Contact(s) Pitched</option>
+      </select>
 
       {/* Header */}
       <section className="p-5">
@@ -66,7 +75,7 @@ const AssignedJobs = () => {
 
               <div className="job-middle">
                 <div className="jobs-board">
-                 <i className='bxr bx-user-circle bx-xs'  ></i> 
+                  <i className='bxr bx-user-circle bx-xs'  ></i>
                   <span className="assigned-to">{job.assignedTo}</span>
                 </div>
                 <div className=" jobs-board">
@@ -77,16 +86,16 @@ const AssignedJobs = () => {
               </div>
 
               <div>
-                  <span className="status">{job.status}</span>
+                <span className="status">{job.status}</span>
               </div>
 
               <div>
-                 <button className="btn-secondary">View Files</button>
+                <button className="btn-secondary">View Files</button>
               </div>
 
               <div className="job-right">
-               
-                
+
+
                 <label className="switch">
                   <input type="checkbox" defaultChecked />
                   <span className="slider"></span>

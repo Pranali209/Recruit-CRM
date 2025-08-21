@@ -83,7 +83,7 @@ function App() {
           <SideBar />
           <main className="flex flex-col flex-1">
             <Header />
-            <div className='flex '>
+            <div className='flex  max-md:flex-col '>
                 <section className='sectionA'>
               <Headermini />
               <SubHeader showForm  = {showForm} setShowForm = {setShowForm} />
