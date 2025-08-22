@@ -188,7 +188,7 @@
   color: #444;
 }
 
-.link {
+.breadcrumbs.link {
   text-decoration: none;
   color: #1F5FAC;
   font-weight: 600;
@@ -196,7 +196,7 @@
 }
 
 .separator {
-  margin: 2px 6px;
+  margin: 3px 6px;
   color:#0073e6 ;
   font-size: 20px;
 }
@@ -677,7 +677,13 @@
   border: 1px solid #ddd;
 }
 
-
+.activity-card .link {
+  color: #007bff;
+  font-size: 13px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 8px;
+}
 
 .link:hover {
   text-decoration: underline;
@@ -709,7 +715,10 @@
   gap: 0.5rem; /* gap-2 */
 }
 
-
+.item-section.link {
+  color: #2563eb;         /* text-blue-600 */
+  text-decoration: none;
+}
 
 .link:hover {
   text-decoration: underline;

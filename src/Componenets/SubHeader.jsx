@@ -100,14 +100,14 @@ function SubHeader({showForm , setShowForm}) {
   </div>
 
   <div className="right-section">
-    <div className="item">
+    <div className="item-section">
       <svg xmlns="http://www.w3.org/2000/svg" height="23" width="23" viewBox="0 0 640 640">
         <path fill='#656E7A' d="M463 448.2C440.9..."></path>
       </svg>
       <span>Phyllis Yang</span>
     </div>
 
-    <div className="item">
+    <div className="item-section">
       <svg xmlns="http://www.w3.org/2000/svg" height="23" width="23" viewBox="0 0 640 640">
         <path fill='#656E7A' d="M320 128C426..."></path>
       </svg>
