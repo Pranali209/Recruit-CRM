@@ -52,7 +52,7 @@ const AssignedJobs = () => {
       </select>
 
       {/* Header */}
-      <section className="p-5">
+      <section className="PaddingSection">
         <div className="assigned-header">
           <span>Assigned Job to William Sample</span>
           <div className="header-actions">

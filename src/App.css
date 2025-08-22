@@ -9,6 +9,24 @@
     padding: 6px;
     align-items: center;
 }
+.CandidateFormDiv{
+  display: flex;
+  flex-direction: column;
+  flex:1;
+}
+.MainSection{
+  display: flex;
+  
+  
+}
+.containerMain {
+  min-height: 100vh;          /* same as min-h-screen */
+  background-color: #f8f9fa;  /* light background */
+  color: #333;                /* light text */
+}
+.PaddingSection{
+  padding:5px
+}
 
 .iconSize{
   margin-top: 10px;
@@ -670,6 +688,42 @@
 .link:hover {
   text-decoration: underline;
 }
+.NameWidth{
+  width: 42rem;
+}
+.header-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;          /* same as gap-6 */
+  padding: 1rem;        /* same as p-4 */
+  font-size: 0.875rem;  /* same as text-sm */
+  color: #374151;       /* text-gray-700 */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* shadow-sm */
+}
+
+.left-section,
+.right-section {
+  display: flex;
+  gap: 1.5rem; /* gap-6 */
+}
+
+.item-section {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* gap-2 */
+}
+
+.link {
+  color: #2563eb;         /* text-blue-600 */
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
 
 .activity-footer {
   display: flex;
@@ -679,6 +733,12 @@
   gap: 8px;
   font-size: 12px;
   color: #666;
+}
+.activity-footer span{
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  justify-items: center;
 }
 
 .modal-overlay {

@@ -76,14 +76,14 @@ function App() {
 
 
 
-      <div className="min-h-screen bg-[#f8f9fa] dark:bg-[#1a1a1a] text-[#333] dark:text-[#f8f9fa]">
+      <div className="containerMain">
 
-        <div className="flex">
+        <div className="MainSection">
 
           <SideBar />
-          <main className="flex flex-col flex-1">
+          <main className="CandidateFormDiv">
             <Header />
-            <div className='flex  max-md:flex-col '>
+            <div className='MainSection '>
                 <section className='sectionA'>
               <Headermini />
               <SubHeader showForm  = {showForm} setShowForm = {setShowForm} />
@@ -98,7 +98,7 @@ function App() {
            
 
 
-            <div className="flex flex-col flex-1 ">
+            <div className="CandidateFormDiv ">
 
             
             <CandidateDetailForm showForm = {showForm} setShowForm = {setShowForm}  />

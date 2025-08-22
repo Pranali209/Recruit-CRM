@@ -65,8 +65,8 @@ const ActivityFeed = () => {
               {activity.associations}
             </a>
             <div className="activity-footer">
-              <span className="flex items-center gap-1 align-middle author"><i class='bxr  bx-user-circle bx-xs'  ></i>  {activity.author}</span>
-              <span className="flex items-center gap-1 align-middle  date"><i class='bxr  bx-clock-3 bx-xs'  ></i>  {activity.date}</span>
+              <span className=" author"><i class='bxr  bx-user-circle bx-xs'  ></i>  {activity.author}</span>
+              <span className="  date"><i class='bxr  bx-clock-3 bx-xs'  ></i>  {activity.date}</span>
             </div>
           </div>
         ))}
