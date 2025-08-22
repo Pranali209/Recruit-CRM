@@ -677,13 +677,7 @@
   border: 1px solid #ddd;
 }
 
-.link {
-  color: #007bff;
-  font-size: 13px;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 8px;
-}
+
 
 .link:hover {
   text-decoration: underline;
@@ -715,10 +709,7 @@
   gap: 0.5rem; /* gap-2 */
 }
 
-.link {
-  color: #2563eb;         /* text-blue-600 */
-  text-decoration: none;
-}
+
 
 .link:hover {
   text-decoration: underline;
